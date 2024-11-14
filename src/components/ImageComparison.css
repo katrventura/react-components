@@ -1,0 +1,64 @@
+.comparison-container {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    user-select: none;
+  }
+  
+  .image-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .comparison-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .label {
+    position: absolute;
+    bottom: 16px;
+    padding: 4px 8px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 4px;
+  }
+  
+  .label-before {
+    left: 16px;
+  }
+  
+  .label-after {
+    right: 16px;
+  }
+  
+  .slider {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: white;
+    cursor: ew-resize;
+  }
+  
+  .slider-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    color: #666;
+  }
